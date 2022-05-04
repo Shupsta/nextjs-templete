@@ -3,7 +3,7 @@ import CatCard, { ICatCard } from './CatCard';
 import { mockCatCardProps } from './CatCard.mocks';
 
 export default {
-  title: 'templates/CatCard',
+  title: 'cards/CatCard',
   component: CatCard,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
