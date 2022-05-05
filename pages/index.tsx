@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+import CatCard from '../components/cards/cats/CatCard';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -50,6 +51,15 @@ const Home: NextPage = () => {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+        </div>
+        <div>
+          <CatCard
+            tag={'cat'}
+            title={'testCat'}
+            body={'testCatThing'}
+            author={'Me'}
+            time={'Now'}
+          />
         </div>
       </main>
 
